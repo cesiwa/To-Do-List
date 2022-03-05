@@ -1,0 +1,114 @@
+body{
+    background-color:#C76CFF;
+    height:95vh;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    gap: 10px;
+}
+.do{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 10vh;
+    background-color:#D0D1FF;
+    border-radius: 20px;
+    border: solid;
+    border-width:3px ;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#D0D1FF;
+    border: solid;
+    border-width:3px ;
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: rgba(0, 0, 0, 0.295);
+    width: 30%;
+    height: 87vh;
+    gap: 10px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color:#FFCBF2;
+    width: 90%;
+    height: 80vh;
+    background-image: url("photo.png");
+    background-repeat:no-repeat ;
+    background-position: center;
+    overflow: auto;
+    border-radius: 20px;
+}
+.li1{
+    font-size: 35px;
+    color:#C76CFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.val{
+    border-radius: 30px;
+    background-color: #c76cffad;
+    border: dashed;
+    border-width: 2px;
+    border-color: #FFCBF2;
+    height: 35px;
+    width: 35vh;
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+#button{
+    border-radius: 30px;
+    background-color:#FFCBF2;
+    border-color: #C76CFF;
+    width: 10vh;
+    height: 30px;
+
+}
+.clear{
+    border-radius: 30px;
+    background-color:#000000;
+    border-color:#C76CFF;
+    border-width: 2px;
+    color: #C76CFF;
+    font-size: larg;
+    width: 10vh;
+    height: 30px;
+}
+.val::placeholder{
+    color:#C76CFF;
+}
+#arrow{
+    font-size: 25px;
+    margin-left: 7px;
+    color: #068d43;
+}
+#arrow:hover{
+    font-size: 30px;
+    color: #1cb360;
+}
+#delete{
+    font-size: 25px;
+    margin-left: 7px;
+    color: #7e2516;
+
+}
+#delete:hover{
+    font-size: 30px ;
+    color: #000000;
+}
